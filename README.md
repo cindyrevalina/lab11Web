@@ -15,22 +15,8 @@ Repository ini berisi hasil praktikum 11 mata kuliah Pemrograman Web Universitas
 - Template header/footer
 
 ## Struktur projec
-lab11_php_oop/ 
-├── .htaccess           (Konfigurasi URL Rewrite) 
-├── config.php          (Konfigurasi Database) 
-├── index.php           (Gerbang Utama / Routing) 
-├── class/              (Tempat menyimpan Library) 
-│   ├── Database.php 
-│   └── Form.php 
-├── module/             (Tempat modul-modul website) 
-│   └── artikel/ 
-│       ├── index.php   (Menampilkan data) 
-│       ├── tambah.php  (Form tambah) 
-│       └── ubah.php 
-├── template/           (Bagian layout) 
-├── header.php 
-├── footer.php 
-└── sidebar.php         
+<img width="552" height="301" alt="image" src="https://github.com/user-attachments/assets/1636f706-ca5f-460a-8514-c89b41193787" />
+     
 
 ## Teknologi
 
