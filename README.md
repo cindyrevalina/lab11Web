@@ -14,30 +14,31 @@ Repository ini berisi hasil praktikum 11 mata kuliah Pemrograman Web Universitas
 - CRUD Artikel (Create–Read–Update)
 - Template header/footer
 
-## Struktur projec
-class
-database.php
-form.php
-gambar/
-    home1.png
-    home2.png
-sukses.png
-tambah1.png
-tambah2.png
-module/
-    artikel/
-        index.php
-        tambah.php
-        ubah.php
-home/
-template/
-    footer.php
-    header.php
-    sidebar.php
-.htaccess
-config.php
-index.php
-README.md
+
+Struktur Project:
+├── class
+├── database.php
+├── form.php
+├── gambar/
+│   ├── home1.png
+│   ├── home2.png
+│   ├── sukses.png
+│   ├── tambah1.png
+│   └── tambah2.png
+├── module/
+│   └── artikel/
+│       ├── index.php
+│       ├── tambah.php
+│       └── ubah.php
+├── home/
+├── template/
+│   ├── footer.php
+│   ├── header.php
+│   └── sidebar.php
+├── .htaccess
+├── config.php
+├── index.php
+└── README.md
      
 
 ## Teknologi
