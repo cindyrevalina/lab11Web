@@ -43,9 +43,11 @@ lab11_php_oop/
 Tampilan database setup 
 <img width="175" height="95" alt="image" src="https://github.com/user-attachments/assets/16e1f7bf-354e-46ee-8c6c-e4236bbc9723" />
 
-Tampilan index 1
+Tampilan home1
 <img width="837" height="369" alt="image" src="https://github.com/user-attachments/assets/dab43842-f18b-46fc-ac50-a9f0320d7173" />
 
+Tampilan home2
+<img width="1365" height="535" alt="image" src="https://github.com/user-attachments/assets/a556ac8c-2333-4330-b94f-d703b87ae508" />
 
 ## 🧑‍💻 Cara menjalankan
 1. Clone repo ke htdocs XAMPP
