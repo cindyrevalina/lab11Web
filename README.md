@@ -49,6 +49,9 @@ Tampilan home1
 Tampilan home2
 <img width="1365" height="535" alt="image" src="https://github.com/user-attachments/assets/a556ac8c-2333-4330-b94f-d703b87ae508" />
 
+Tampilan home1
+<img width="848" height="502" alt="image" src="https://github.com/user-attachments/assets/7ede8b8c-086d-43c7-ba04-2591f2cd67a0" />
+
 Tampilan tambah2
 <img width="584" height="368" alt="image" src="https://github.com/user-attachments/assets/ac82a78d-fd89-4152-92b2-666afde52d9c" />
 
