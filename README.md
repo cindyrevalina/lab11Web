@@ -40,7 +40,9 @@ lab11_php_oop/
 - HTML
 
 ## Screenshot
-(Sesuaikan dengan hasilmu)
+Tampilan database setup 
+<img width="175" height="95" alt="image" src="https://github.com/user-attachments/assets/16e1f7bf-354e-46ee-8c6c-e4236bbc9723" />
+
 
 ## 🧑‍💻 Cara menjalankan
 1. Clone repo ke htdocs XAMPP
