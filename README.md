@@ -26,6 +26,32 @@ Repository ini berisi hasil praktikum 11 mata kuliah Pemrograman Web Universitas
        - Dapat membuat sistem CRUD, login, dashboard, dan aplikasi besar lainnya.
        - PHP tetap relevan dan digunakan luas di dunia industri.
 
+## Struktur Projec
+
+    lab11_php_oop/
+    ├── database.php
+    ├── form.php
+    ├── gambar/
+    │   ├── home1.png
+    │   ├── home2.png
+    │   ├── sukses.png
+    │   ├── tambah1.png
+    │   └── tambah2.png
+    ├── module/
+    │   └── artikel/
+    │       ├── index.php
+    │       ├── tambah.php
+    │       └── ubah.php
+    ├── home/
+    ├── template/
+    │   ├── footer.php
+    │   ├── header.php
+    │   └── sidebar.php
+    ├── .htaccess
+    ├── config.php
+    ├── index.php
+    └── README.md
+
 
 ## Fitur
 
