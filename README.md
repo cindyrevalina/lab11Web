@@ -6,6 +6,27 @@
 
 Repository ini berisi hasil praktikum 11 mata kuliah Pemrograman Web Universitas Pelita Bangsa.
 
+## TUJUAN ARTIKEL: "Pengenalan PHP dan Perannya dalam Pengembangan Web Modern"
+
+    1. Memberikan pemahaman tentang apa itu PHP.
+       - PHP adalah bahasa pemrograman server-side untuk membuat website dinamis.
+
+    2. Menjelaskan alasan mengapa PHP banyak digunakan.
+       - Mudah dipelajari, fleksibel, dan cocok untuk pemula maupun profesional.
+       - Terintegrasi baik dengan database seperti MySQL.
+
+    3. Menunjukkan peran PHP dalam pengembangan aplikasi web.
+       - Mengolah data, menerima input, mengelola sesi, dan berkomunikasi dengan database.
+
+    4. Memberikan gambaran perkembangan PHP di era modern.
+       - Tersedia banyak framework seperti Laravel, CI, dan Symfony.
+       - Membantu developer membuat aplikasi yang lebih aman dan terstruktur.
+
+    5. Menjelaskan manfaat mempelajari PHP bagi mahasiswa atau developer.
+       - Dapat membuat sistem CRUD, login, dashboard, dan aplikasi besar lainnya.
+       - PHP tetap relevan dan digunakan luas di dunia industri.
+
+
 ## Fitur
 
 - Routing URL menggunakan `.htaccess`
@@ -14,33 +35,7 @@ Repository ini berisi hasil praktikum 11 mata kuliah Pemrograman Web Universitas
 - CRUD Artikel (Create–Read–Update)
 - Template header/footer
 
-
-Struktur Project:
-├── class
-├── database.php
-├── form.php
-├── gambar/
-│   ├── home1.png
-│   ├── home2.png
-│   ├── sukses.png
-│   ├── tambah1.png
-│   └── tambah2.png
-├── module/
-│   └── artikel/
-│       ├── index.php
-│       ├── tambah.php
-│       └── ubah.php
-├── home/
-├── template/
-│   ├── footer.php
-│   ├── header.php
-│   └── sidebar.php
-├── .htaccess
-├── config.php
-├── index.php
-└── README.md
-     
-
+  
 ## Teknologi
 
 - PHP OOP
@@ -63,6 +58,10 @@ Tampilan home1
 
 Tampilan tambah2
 <img width="584" height="368" alt="image" src="https://github.com/user-attachments/assets/ac82a78d-fd89-4152-92b2-666afde52d9c" />
+
+## Kesimpulan
+    Artikel ini bertujuan memberikan gambaran umum tentang PHP,
+    mengapa PHP penting, serta bagaimana PHP digunakan dalam pengembangan web.
 
 ## 🧑‍💻 Cara menjalankan
 1. Clone repo ke htdocs XAMPP
