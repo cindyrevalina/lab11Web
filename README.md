@@ -33,7 +33,7 @@ Repositori ini berisi tugas praktikum pemrograman web mengenai penerapan konsep 
 
 ## 📂 Struktur Project
 
-```text
+```
 lab11_php_oop/
 ├── class/
 │   ├── Database.php      # Class koneksi database & query logic
@@ -89,6 +89,7 @@ Halaman selain login diproteksi. Jika $_SESSION['is_login'] tidak ada, pengguna 
 - MySQL
 - Apache mod_rewrite
 - HTML
+```
 
 ## Screenshot
 Tampilan database setup 
