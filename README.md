@@ -27,7 +27,13 @@ Repository ini berisi hasil praktikum 11 mata kuliah Pemrograman Web Universitas
        - PHP tetap relevan dan digunakan luas di dunia industri.
 
 ## Struktur Projec
+# Lab11 PHP OOP - Sistem Modular Artikel
 
+Repositori ini berisi tugas praktikum pemrograman web mengenai penerapan konsep **Object Oriented Programming (OOP)** dan **Modular Traversal Pattern** pada PHP.
+
+## 📂 Struktur Project
+
+```text
 lab11_php_oop/
 ├── class/
 │   ├── Database.php      # Class koneksi database & query logic
@@ -47,7 +53,8 @@ lab11_php_oop/
 │   └── footer.php        # Bagian bawah (Copyright & JS)
 ├── config.php            # File konfigurasi database (Host, User, DB)
 ├── index.php             # Router utama (File paling penting)
-└── .htaccess             # (Opsional) Untuk mempercantik URL
+└── .htaccess             # (Opsional) Konfigurasi URL cantik
+
 Konfigurasi Penting
 1. Database (config.php)
 Pastikan pengaturan database sudah sesuai dengan MySQL Anda:
