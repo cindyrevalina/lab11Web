@@ -27,30 +27,42 @@ Repository ini berisi hasil praktikum 11 mata kuliah Pemrograman Web Universitas
        - PHP tetap relevan dan digunakan luas di dunia industri.
 
 ## Struktur Projec
+lab11_php_oop/
+├── class/
+│   ├── Database.php      # Class koneksi database
+│   └── Form.php          # Class bantuan form
+├── module/
+│   ├── artikel/
+│   │   ├── index.php     # Daftar artikel (Tabel)
+│   │   ├── tambah.php    # Form tambah artikel
+│   │   └── edit.php      # Form edit artikel
+│   └── users/
+│       ├── login.php     # Halaman login
+│       ├── logout.php    # Proses logout
+│       └── profil.php    # Halaman profil user
+├── template/
+│   ├── header.php        # Navigasi atas (Navbar)
+│   └── footer.php        # Penutup halaman
+├── config.php            # Konfigurasi database (host, user, pass, db)
+└── index.php             # File utama (Router & Controller)         
 
-    lab11_php_oop/
-    ├── database.php
-    ├── form.php
-    ├── gambar/
-    │   ├── home1.png
-    │   ├── home2.png
-    │   ├── sukses.png
-    │   ├── tambah1.png
-    │   └── tambah2.png
-    ├── module/
-    │   └── artikel/
-    │       ├── index.php
-    │       ├── tambah.php
-    │       └── ubah.php
-    ├── home/
-    ├── template/
-    │   ├── footer.php
-    │   ├── header.php
-    │   └── sidebar.php
-    ├── .htaccess
-    ├── config.php
-    ├── index.php
-    └── README.md
+Konfigurasi Penting
+1. Database (config.php)
+Pastikan pengaturan database sudah sesuai dengan MySQL Anda:
+
+PHP
+
+$config = [
+    'host' => 'localhost',
+    'username' => 'root',
+    'password' => '',
+    'db_name' => 'oop_latihan'
+];
+2. File Utama (index.php)
+File ini bertugas memproses URL. Jika Anda mengakses /users/profil, maka index.php akan otomatis memanggil file di module/users/profil.php.
+
+3. Keamanan Session
+Halaman selain login diproteksi. Jika $_SESSION['is_login'] tidak ada, pengguna akan selalu dilempar kembali ke halaman /users/login.
 
 
 ## Fitur
