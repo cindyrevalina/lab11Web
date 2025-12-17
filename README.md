@@ -27,25 +27,27 @@ Repository ini berisi hasil praktikum 11 mata kuliah Pemrograman Web Universitas
        - PHP tetap relevan dan digunakan luas di dunia industri.
 
 ## Struktur Projec
+
 lab11_php_oop/
 ├── class/
-│   ├── Database.php      # Class koneksi database
-│   └── Form.php          # Class bantuan form
+│   ├── Database.php      # Class koneksi database & query logic
+│   └── Form.php          # Class generator form (Input, Label, dsb)
 ├── module/
-│   ├── artikel/
-│   │   ├── index.php     # Daftar artikel (Tabel)
-│   │   ├── tambah.php    # Form tambah artikel
-│   │   └── edit.php      # Form edit artikel
-│   └── users/
-│       ├── login.php     # Halaman login
-│       ├── logout.php    # Proses logout
-│       └── profil.php    # Halaman profil user
-├── template/
-│   ├── header.php        # Navigasi atas (Navbar)
-│   └── footer.php        # Penutup halaman
-├── config.php            # Konfigurasi database (host, user, pass, db)
-└── index.php             # File utama (Router & Controller)         
-
+│   ├── artikel/          # Modul Pengelolaan Artikel
+│   │   ├── index.php     # Menampilkan tabel daftar artikel
+│   │   ├── tambah.php    # Form tambah artikel baru
+│   │   ├── edit.php      # Form edit artikel lama
+│   │   └── hapus.php     # Logika penghapusan artikel
+│   └── users/            # Modul Pengelolaan Pengguna
+│       ├── login.php     # Halaman login user
+│       ├── profil.php    # Halaman profil user yang sedang login
+│       └── logout.php    # Logika menghapus session login
+├── template/             # Folder Layout Utama
+│   ├── header.php        # Bagian atas (Navbar & CSS)
+│   └── footer.php        # Bagian bawah (Copyright & JS)
+├── config.php            # File konfigurasi database (Host, User, DB)
+├── index.php             # Router utama (File paling penting)
+└── .htaccess             # (Opsional) Untuk mempercantik URL
 Konfigurasi Penting
 1. Database (config.php)
 Pastikan pengaturan database sudah sesuai dengan MySQL Anda:
