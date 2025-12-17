@@ -110,6 +110,9 @@ Tampilan tambah2
 Tampilan login
 <img width="608" height="541" alt="image" src="https://github.com/user-attachments/assets/7df1dfb9-dafa-49d5-b1fb-642ea9cdfa0a" />
 
+Tampilan daftar artikel
+<img width="1365" height="662" alt="image" src="https://github.com/user-attachments/assets/dc6bca97-fe36-4f29-b510-9201a439011d" />
+
 ## Kesimpulan
     Artikel ini bertujuan memberikan gambaran umum tentang PHP,
     mengapa PHP penting, serta bagaimana PHP digunakan dalam pengembangan web.
